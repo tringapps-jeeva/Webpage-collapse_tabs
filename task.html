@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<head>
+  <title>
+    webpage
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    header {
+      background-color: indianred;
+      padding: 1%;
+      margin: 1% 1% 1% 1%;
+      text-align: center;
+      color: white;
+    }
+
+    .collapse {
+      border: none;
+      background-color: indianred;
+      color: blanchedalmond;
+      width: 97%;
+      height: 50px;
+      border-radius: 15px;
+      font-size: 20px;
+      margin: 1% 2% 0% 2%;
+      cursor: pointer;
+      text-align: left;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+      text-shadow: 1.5px 1.5px black;
+    }
+
+    .collapse:hover {
+      background-color: rgba(0, 0, 0, 0.671);
+      color: aliceblue;
+    }
+
+    .text {
+      font-size: 30px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-shadow: 2px 2px black;
+    }
+
+    .sidebar {
+      border: 5px outset red;
+      width: 30%;
+      height: 80%;
+      position: fixed;
+      left: 1.5%;
+      top: 140px;
+      background-color: gray;
+    }
+
+    .content {
+      width: 63%;
+      height: 80%;
+      border: 5px solid red;
+      top: 140px;
+      left: 34%;
+      position: fixed;
+      background-color: gray;
+      overflow-y: scroll;
+    }
+
+    .content::-webkit-scrollbar {
+      display: none;
+    }
+
+    .content1 {
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+      margin: 1% 2% 0% 2%;
+      background-color: pink;
+      border: 2px solid black;
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: justify;
+      line-height: 25px;
+    }
+
+    @media only screen and (max-width: 600px) {
+
+      .sidebar {
+        top: 23%;
+        border: 5px outset red;
+        width: 87%;
+        height: 20%;
+        margin-left: 1.5%;
+        margin-right: 20%;
+        background-color: gray;
+        overflow: hidden;
+      }
+
+      .content {
+        top: 45%;
+        border: 5px outset red;
+        width: 87%;
+        height: 40%;
+        left: 2%;
+        background-color: gray;
+        overflow-y: scroll;
+        position: fixed;
+      }
+
+      .content::-webkit-scrollbar {
+        display: none;
+      }
+
+      .content1 {
+        display: none;
+        font-size: 18;
+        padding: 0 18px;
+        display: none;
+        overflow: scroll;
+        margin: 1% 2% 0% 2%;
+        background-color: pink;
+        border: 2px solid black;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        line-height: 25px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <header>
+      <h1 class="text">MADURAI TOURIST SPOT</h1>
+    </header>
+  </div>
+  <div class="sidebar">
+    <iframe src="" width="400px" height="300px" name="picture" style="border: none;" scrolling="no"> </iframe>
+
+  </div>
+  <div class="content">
+    <button type="button" class="collapse">THEPAKULAM</button>
+    <div class="content1">
+      <p>Mariamman Teppakulam is a beautiful square tank spread over a huge area of almost 16 acres,
+        located about 4 Kms East of Meenakshi Temple in Madurai City. The tank is the scene of the colourful
+        float festival held in January/February to celebrate the birth anniversary of King Thirumalai Nayak, who built
+        this tank.
+        The deities of Meenakshi and Sundareswarar are placed in a float, called “Teppam”, decorated with flowers and
+        illuminated
+        with hundred of lights. This float is taken around the tank to the sound of traditional music. On the Northern
+        side of
+        the tank a temple is dedicated to Mariamman , a famous village deity of Tamil Nadu.
+        <a href="tepakulam.html" target="picture" id="tep">show image</a>
+      </p>
+    </div>
+    <button class="collapse">MEENAKSHI AMMAN TEMPLE</button>
+    <div class="content1">
+      <p>Meenakshi Amman Temple, also known as Minakshi-Sundareshwara Temple,
+        is one of the oldest and most important temples in India. Located in the city of Madurai,
+        the temple has a great mythological and historical significance. It is believed that Lord Shiva
+        assumed the form of Sundareswarar (the handsome one) and married Parvati (Meenakshi) at the site
+        where the temple is currently located. Renowned for its astonishing architecture, Meenakshi Temple
+        was nominated as one of the wonders of the world, but couldn’t make it into the list of ‘Seven Wonders of the
+        World’.
+        However, the temple is definitely one of the ‘Wonders of India’. It is also one of the main attractions of South
+        India
+        with thousands of devotees thronging it every day. During the ‘Tirukalyanam Festival,’ which takes place over a
+        period
+        of 10 days, the temple attracts more than a million devotees. Despite many people visiting it every day, the
+        temple
+        is well-maintained and was named the ‘Best Swachh Iconic Place’ (cleanest iconic place) in India.
+        <a href="meenakshi.html" target="picture">show image</a>
+      </p>
+    </div>
+    <button class="collapse">GANDHI MUSEUM</button>
+    <div class="content1">
+      <p>Gandhi Memorial Museum not only offers a glimpse into the aspects of Mahatma Gandhi, but also holds a high
+        historical significance.
+        Originally a palace of Rani Mangammal of the Naick dynasty, this building has seen many rulers with changing
+        decades. In a way
+        it also represents the transition of history from one point of time to other. It is undeniably one of the places
+        that shouldn't
+        be missed when on a Madurai Tour.
+        <a href="museum.html" target="picture">show image</a>
+      </p>
+    </div>
+    <button class="collapse">THIRUMALAI NAYAKAR MAHAL</button>
+    <div class="content1">
+      <p>An artistic blend of Dravidian and Islamic styles, Thirumalai Nayak Palace is a place worth admiring and
+        exploring when on a
+        Madurai Tour. It was built in 1635, by the King Thirumalai Nayak who had the vision of creating a masterpiece
+        for royal stay.
+        It was designed as a residence for the king by an Italian architect. This palace is a must visit for history
+        lovers and those who
+        love to explore architectural fineness of bygone eras. The sound and light shows are conducted every evening at
+        the palace, making
+        your trip to this palace even more exciting. Now under the protection of Tamil Nadu Archaeological Department,
+        this palace was
+        declared as a national monument immediately after independence..
+        <a href="mahal.html" target="picture">show image</a>
+      </p>
+    </div>
+  </div>
+  <script>
+    var coll = document.getElementsByClassName("collapse");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>
